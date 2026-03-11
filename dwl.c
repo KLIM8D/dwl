@@ -364,6 +364,7 @@ static void startdrag(struct wl_listener *listener, void *data);
 static void tag(const Arg *arg);
 static void tagmon(const Arg *arg);
 static void tile(Monitor *m);
+static void settiling(const Arg *arg);
 static void togglebar(const Arg *arg);
 static void togglefloating(const Arg *arg);
 static void togglefullscreen(const Arg *arg);
@@ -3038,6 +3039,15 @@ togglebar(const Arg *arg) {
 	DwlIpcOutput *ipc_output;
 	wl_list_for_each(ipc_output, &selmon->dwl_ipc_outputs, link)
 		zdwl_ipc_output_v2_send_toggle_visibility(ipc_output->resource);
+}
+
+void
+settiling(const Arg *arg)
+{
+	Client *sel = focustop(selmon);
+	/* return if fullscreen */
+	if (sel && !sel->isfullscreen && !sel->isfloating)
+		setfloating(sel, false);
 }
 
 void
