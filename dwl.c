@@ -1926,8 +1926,9 @@ modekeybinding(uint32_t mods, xkb_keysym_t sym)
 		}
 
 		k = &mk->key;
-		if (CLEANMASK(mods) == CLEANMASK(k->mod) &&
-				sym == k->keysym && k->func) {
+        if (CLEANMASK(mods) == CLEANMASK(k->mod)
+                && xkb_keysym_to_lower(sym) == xkb_keysym_to_lower(k->keysym)
+                && k->func) {
 			k->func(&k->arg);
 			handled = 1;
 		}
@@ -3046,7 +3047,7 @@ settiling(const Arg *arg)
 {
 	Client *sel = focustop(selmon);
 	/* return if fullscreen */
-	if (sel && !sel->isfullscreen && !sel->isfloating)
+	if (sel && !sel->isfullscreen && sel->isfloating)
 		setfloating(sel, false);
 }
 
