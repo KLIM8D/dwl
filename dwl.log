@@ -1,27 +1,7 @@
-00:00:00.049 [ERROR] [EGL] command: eglQueryDevicesEXT, error: EGL_BAD_ALLOC (0x3003), message: "EGL_BAD_ALLOC error: In eglQueryDevicesEXT: Failed to allocate device list.
+00:00:00.047 [ERROR] [EGL] command: eglQueryDevicesEXT, error: EGL_BAD_ALLOC (0x3003), message: "EGL_BAD_ALLOC error: In eglQueryDevicesEXT: Failed to allocate device list.
 "
-00:00:00.049 [ERROR] [EGL] command: eglQueryDevicesEXT, error: EGL_BAD_ALLOC (0x3003), message: "EGL_BAD_ALLOC error: In eglQueryDevicesEXT: Failed to allocate device list.
+00:00:00.047 [ERROR] [EGL] command: eglQueryDevicesEXT, error: EGL_BAD_ALLOC (0x3003), message: "EGL_BAD_ALLOC error: In eglQueryDevicesEXT: Failed to allocate device list.
 "
-/usr/bin/wl-paste: unrecognized option '--type text'
-Usage:
-	/usr/bin/wl-paste [options]
-Paste content from the Wayland clipboard.
-
-Options:
-	-n, --no-newline	Do not append a newline character.
-	-l, --list-types	Instead of pasting, list the offered types.
-	-p, --primary		Use the "primary" clipboard.
-	-w, --watch command	Run a command each time the selection changes.
-	-t, --type mime/type	Override the inferred MIME type for the content.
-	-s, --seat seat-name	Pick the seat to work with.
-	-v, --version		Display version info.
-	-h, --help		Display this message.
-Mandatory arguments to long options are mandatory for short options too.
-
-See wl-clipboard(1) for more details.
-WARNING: Cannot use filtering rules in special section. Ignoring msg_urgency in section urgency_low.
-WARNING: Cannot use filtering rules in special section. Ignoring msg_urgency in section urgency_normal.
-WARNING: Cannot use filtering rules in special section. Ignoring msg_urgency in section urgency_critical.
 /usr/bin/wl-paste: unrecognized option '--type image'
 Usage:
 	/usr/bin/wl-paste [options]
@@ -39,11 +19,34 @@ Options:
 Mandatory arguments to long options are mandatory for short options too.
 
 See wl-clipboard(1) for more details.
-applying profile 'laptop'
-applying profile output 'Samsung Display Corp. *' on connected head 'eDP-1'
-2026-03-11 14:00:00 - [swaybg-1.2.1/main.c:282] Found config * for output eDP-1 (Samsung Display Corp. 0x414D)
-configuration for profile 'laptop' applied
-WARNING: compositor doesn't support zwlr_foreign_toplevel_v1. Fullscreen detection won't work
+/usr/bin/wl-paste: unrecognized option '--type text'
+Usage:
+	/usr/bin/wl-paste [options]
+Paste content from the Wayland clipboard.
+
+Options:
+	-n, --no-newline	Do not append a newline character.
+	-l, --list-types	Instead of pasting, list the offered types.
+	-p, --primary		Use the "primary" clipboard.
+	-w, --watch command	Run a command each time the selection changes.
+	-t, --type mime/type	Override the inferred MIME type for the content.
+	-s, --seat seat-name	Pick the seat to work with.
+	-v, --version		Display version info.
+	-h, --help		Display this message.
+Mandatory arguments to long options are mandatory for short options too.
+
+See wl-clipboard(1) for more details.
+[LOG] Registered timeout rule for 180s:
+      on-timeout: loginctl lock-session
+      on-resume: 
+      ignore_inhibit: false
+[LOG] Registered timeout rule for 300s:
+      on-timeout: hyprctl dispatch dpms off
+      on-resume: hyprctl dispatch dpms on
+      ignore_inhibit: false
+WARNING: Cannot use filtering rules in special section. Ignoring msg_urgency in section urgency_low.
+WARNING: Cannot use filtering rules in special section. Ignoring msg_urgency in section urgency_normal.
+WARNING: Cannot use filtering rules in special section. Ignoring msg_urgency in section urgency_critical.
 qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in ""
 qt.qpa.xcb: could not connect to display 
 qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
@@ -51,579 +54,399 @@ This application failed to start because no Qt platform plugin could be initiali
 
 Available platform plugins are: xcb.
 
-
-(gammastep-indicator:5625): libayatana-appindicator-WARNING **: 14:00:01.094: libayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.
-blueman-applet 14.00.01 WARNING  PluginManager:93 load_plugin: Failed to start plugin GameControllerWakelock: Only X11 platform is supported
-blueman-applet 14.00.01 WARNING  PluginManager:153 __load_plugin: Not loading DhcpClient because its conflict has higher priority
-blueman-applet 14.00.01 WARNING  PluginManager:153 __load_plugin: Not loading PPPSupport because its conflict has higher priority
-blueman-applet 14.00.01 WARNING  DiscvManager:122 update_menuitems: warning: Adapter is None
-
-(gammastep-indicator:5625): Gtk-CRITICAL **: 14:00:01.200: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:01.256: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:03.082: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:03.082: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:05.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:05.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:11.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:11.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:17.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:17.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:30.211: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:30.211: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:35.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:35.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:47.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:47.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:53.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:00:53.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:01:02.982: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:01:02.982: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:01:05.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:01:05.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:01:11.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:01:11.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:01:29.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:01:29.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:01:35.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:01:35.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:01:59.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:01:59.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:08.374: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:08.374: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:11.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:11.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:17.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:17.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:23.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:23.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(process:6362): Modes.Window-WARNING **: 14:02:26.924: Unable to initialize Window mode: Wayland compositor does not support wlr-foreign-toplevel-management protocol
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:35.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:35.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:41.283: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:41.283: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:41.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:41.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:47.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:47.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:53.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:53.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:59.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:02:59.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:03:14.418: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:03:14.418: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:03:17.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:03:17.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:03:41.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:03:41.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:03:47.841: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:03:47.842: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:03:53.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:03:53.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:11.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:11.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:17.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:17.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:21.121: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:21.121: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:23.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:23.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:29.663: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:29.663: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:35.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:35.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:41.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:41.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:47.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:47.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:54.402: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:54.402: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:59.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:04:59.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:17.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:17.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:23.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:23.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:27.029: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:27.029: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:29.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:29.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:35.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:35.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:41.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:41.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:47.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:47.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:53.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:53.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:59.944: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:05:59.944: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:05.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:05.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:11.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:11.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:17.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:17.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:29.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:29.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:33.461: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:33.461: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:35.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:35.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:41.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:41.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:47.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:06:47.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:06.508: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:06.509: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:11.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:11.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:17.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:17.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:23.671: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:23.671: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:29.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:29.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:39.647: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:39.647: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:41.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:41.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:47.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:47.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:53.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:53.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:59.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:07:59.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:08:05.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:08:05.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:08:12.050: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:08:12.050: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:08:17.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:08:17.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:08:41.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:08:41.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:08:45.187: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:08:45.188: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:08:47.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:08:47.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:17.456: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:17.456: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:17.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:17.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:29.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:29.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:35.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:35.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:41.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:41.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:50.729: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:50.729: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:53.663: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:09:53.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:17.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:17.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:24.009: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:24.009: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:29.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:29.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:35.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:35.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:41.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:41.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:47.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:47.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:53.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:53.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:55.893: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:55.894: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:59.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:10:59.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:11:11.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:11:11.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:11:17.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:11:17.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:11:28.659: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:11:28.660: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:11:29.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:11:29.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:11:35.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:11:35.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:11:53.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:11:53.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:01.427: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:01.427: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:05.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:05.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:11.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:11.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:17.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:17.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:23.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:23.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:29.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:29.671: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:34.940: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:34.940: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:41.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:41.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:53.671: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:53.671: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:59.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:12:59.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:08.220: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:08.220: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:11.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:11.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:17.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:17.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:29.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:29.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:35.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:35.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:41.633: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:41.634: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:41.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:41.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:53.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:53.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:59.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:13:59.667: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:14.780: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:14.780: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:17.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:17.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:23.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:23.671: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:35.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:35.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:41.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:41.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:47.824: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:47.824: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:53.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:14:53.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:05.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:05.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:11.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:11.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:17.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:17.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:20.829: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:20.829: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:23.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:23.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:29.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:29.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:35.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:35.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:54.242: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:54.243: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:59.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:15:59.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:11.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:11.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:17.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:17.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:23.668: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:23.669: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:29.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:29.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:35.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:35.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:59.412: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:59.412: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:59.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:16:59.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:17:11.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:17:11.670: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:17:32.550: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:17:32.550: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:17:35.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:17:35.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:17:41.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:17:41.666: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:17:47.664: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:5629): Gtk-CRITICAL **: 14:17:47.665: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[LOG]   | got iface: wl_shm v2
+[LOG]   | got iface: wl_drm v2
+[LOG]   | got iface: zwp_linux_dmabuf_v1 v5
+[LOG]   | got iface: wp_linux_drm_syncobj_manager_v1 v1
+[LOG]   | got iface: wl_compositor v6
+[LOG]   | got iface: wl_subcompositor v1
+[LOG]   | got iface: wl_data_device_manager v3
+[LOG]   | got iface: zwlr_export_dmabuf_manager_v1 v1
+[LOG]   | got iface: zwlr_screencopy_manager_v1 v3
+[LOG]   | got iface: zwlr_data_control_manager_v1 v2
+[LOG]   | got iface: zwp_primary_selection_device_manager_v1 v1
+[LOG]   | got iface: wp_viewporter v1
+[LOG]   | got iface: wp_single_pixel_buffer_manager_v1 v1
+[LOG]   | got iface: wp_fractional_scale_manager_v1 v1
+[LOG]   | got iface: wp_presentation v2
+[LOG]   | got iface: wp_alpha_modifier_v1 v1
+[LOG]   | got iface: xdg_activation_v1 v1
+[LOG]   | got iface: zwlr_gamma_control_manager_v1 v1
+[LOG]   | got iface: zwlr_output_power_manager_v1 v1
+[LOG]   | got iface: zxdg_output_manager_v1 v3
+[LOG]   | got iface: xdg_wm_base v6
+[LOG]   | got iface: zwlr_layer_shell_v1 v3
+[LOG]   | got iface: ext_idle_notifier_v1 v2
+[LOG]    > Bound to ext_idle_notifier_v1 v2
+[LOG]   | got iface: zwp_idle_inhibit_manager_v1 v1
+[LOG]   | got iface: ext_session_lock_manager_v1 v1
+[LOG]   | got iface: org_kde_kwin_server_decoration_manager v1
+[LOG]   | got iface: zxdg_decoration_manager_v1 v1
+[LOG]   | got iface: zwp_pointer_constraints_v1 v1
+[LOG]   | got iface: zwp_relative_pointer_manager_v1 v1
+[LOG]   | got iface: wp_cursor_shape_manager_v1 v1
+[LOG]   | got iface: zwp_virtual_keyboard_manager_v1 v1
+[LOG]   | got iface: zwlr_virtual_pointer_manager_v1 v2
+[LOG]   | got iface: wl_seat v9
+[LOG]    > Bound to wl_seat v9
+[LOG]   | got iface: zwlr_output_manager_v1 v4
+[LOG]   | got iface: zdwl_ipc_manager_v2 v2
+[LOG]   | got iface: wl_output v4
+[LOG] found 2 rules
+applying profile 'laptop'
+applying profile output 'Samsung Display Corp. *' on connected head 'eDP-1'
+[LOG] wayland done, registering dbus
+2026-03-11 16:34:16 - [swaybg-1.2.1/main.c:282] Found config * for output eDP-1 (Samsung Display Corp. 0x414D)
+[WARN] Compositor is missing hyprland-lock-notify-v1!
+general:inhibit_sleep=3, general:on_lock_cmd and general:on_unlock_cmd will not work.
+[LOG] Sleep inhibition enabled
+[LOG] Using dbus path /org/freedesktop/login1/session/_31
+[LOG] Inhibited sleep with fd 10
+configuration for profile 'laptop' applied
+WARNING: compositor doesn't support zwlr_foreign_toplevel_v1. Fullscreen detection won't work
+2026-03-11 16:34:16 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:34:16 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+[2026-03-11 16:34:16.121] [info] Using configuration file /home/klim/.config/waybar/config.dwl
+[2026-03-11 16:34:16.122] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2026-03-11 16:34:16.122] [info] Using CSS file /home/klim/.config/waybar/style.css
+2026-03-11 16:34:16 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:34:16 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+[2026-03-11 16:34:16.133] [warning] 'swap-icon-label' must be a bool.
+2026-03-11 16:34:16 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:34:16 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+
+(gammastep-indicator:7504): libayatana-appindicator-WARNING **: 16:34:16.182: libayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.
+blueman-applet 16.34.16 WARNING  PluginManager:93 load_plugin: Failed to start plugin GameControllerWakelock: Only X11 platform is supported
+blueman-applet 16.34.16 WARNING  PluginManager:153 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 16.34.16 WARNING  PluginManager:153 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 16.34.16 WARNING  DiscvManager:122 update_menuitems: warning: Adapter is None
+[2026-03-11 16:34:16.261] [warning] Requested height: 5 is less than the minimum height: 24 required by the modules
+[2026-03-11 16:34:16.261] [info] Bar configured (width: 1919, height: 24) for output: eDP-1
+2026-03-11 16:34:16 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:34:16 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+
+** (waybar:7502): WARNING **: 16:34:16.264: Status Notifier Item with bus name ':1.49' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:7502): WARNING **: 16:34:16.353: Status Notifier Item with bus name ':1.49' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+2026-03-11 16:34:45 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:34:45 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:36:37 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:36:37 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:36:38 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:36:38 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:36:40 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:36:40 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:37:03 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:37:03 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:37:03 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:37:03 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:37:05 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:37:05 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:37:24 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:37:24 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:37:29 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:37:29 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:37:34 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:37:34 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:39:50 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:39:50 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:39:57 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:39:57 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:40:21 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:40:21 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:40:25 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:40:25 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:40:25 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:40:25 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:40:25 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:40:25 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:40:27 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:40:27 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:40:29 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:40:29 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:40:30 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:40:30 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:40:31 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:40:31 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:40:32 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:40:32 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:40:32 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:40:32 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:40:32 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:40:32 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:40:50 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:40:50 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:43:42 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:43:42 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:44:57 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:44:57 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:46:43 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:46:43 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:46:43 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:46:43 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:46:45 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:46:45 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:46:46 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:46:46 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:46:51 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:46:51 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:46:51 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:46:51 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:46:54 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:46:54 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:46:55 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:46:55 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:51:28 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:51:28 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:51:28 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:51:28 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:51:30 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:51:30 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:51:36 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:51:36 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:51:54 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:51:54 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:52:03 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:52:03 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:52:07 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:52:07 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:52:08 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:52:08 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+
+(process:12244): Modes.Window-WARNING **: 16:52:08.892: Unable to initialize Window mode: Wayland compositor does not support wlr-foreign-toplevel-management protocol
+2026-03-11 16:52:08 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:52:08 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:52:09 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:52:09 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:52:13 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:52:13 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:52:14 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:52:14 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:52:16 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:52:16 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:52:32 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:52:32 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:53:04 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:53:04 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:53:34 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:53:34 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:56:33 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:56:33 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+00:23:07.094 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:18.011 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:22.894 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:22.910 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:24.244 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:24.994 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:25.010 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:25.027 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:25.260 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:25.294 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:25.310 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:25.327 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:25.477 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:25.494 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:23:25.510 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+2026-03-11 16:57:57 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:57:57 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:58:05 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:58:05 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:58:09 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:58:09 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 16:58:20 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 16:58:20 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+00:27:51.620 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:27:56.970 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+2026-03-11 17:02:40 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:02:40 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:02:43 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:02:43 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:03:55 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:03:55 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:03:56 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:03:56 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+00:29:43.850 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:29:44.100 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:29:45.467 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+2026-03-11 17:04:34 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:04:34 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:04:35 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:04:35 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:04:36 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:04:36 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:04:57 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:04:57 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:04:58 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:04:58 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:04:58 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:04:58 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:05:02 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:05:02 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:05:36 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:05:36 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:05:38 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:05:38 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:05:46 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:05:46 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:05:50 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:05:50 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:06:57 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:06:57 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:07:18 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:07:18 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:09:04 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:09:04 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:09:18 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:09:18 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:09:22 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:09:22 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:11:08 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:11:08 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:13:59 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:13:59 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:14:40 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:14:40 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+00:40:43.700 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+00:40:44.050 [ERROR] [backend/drm/atomic.c:81] connector eDP-1: Atomic commit failed: Device or resource busy
+2026-03-11 17:16:00 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:16:00 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:16:31 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:16:31 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:17:49 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:17:49 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:17:49 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:17:49 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:17:49.142: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(gammastep-indicator:7504): Gtk-CRITICAL **: 17:17:49.142: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:17:49.734: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:17:49.735: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-03-11 17:17:52 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:17:52 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:17:52 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:17:52 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:17:54 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:17:54 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:17:57 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:17:57 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:18:00 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:18:00 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:18:00 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:18:00 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+
+(gammastep-indicator:7504): Gtk-CRITICAL **: 17:18:00.137: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:18:00.137: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:18:01.734: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:18:01.735: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-03-11 17:18:06 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:18:06 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:18:06 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:18:06 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:18:07.734: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:18:07.735: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:18:13.550: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:18:13.550: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:18:13.734: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:18:13.734: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:18:19.734: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:18:19.734: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-03-11 17:18:20 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:18:20 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:18:21 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:18:21 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:18:22 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:18:22 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:18:22 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:18:22 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:18:22 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:18:22 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+[LOG] Idled: rule 5575f62df780
+[LOG] Running loginctl lock-session
+[LOG] Executing loginctl lock-session
+[LOG] Process Created with pid 17105
+[LOG] Got dbus .Session
+[LOG] Got Lock from dbus
+[LOG] Locking with pidof swaylock || swaylock --indicator-radius 80 -c 282828
+[LOG] Executing pidof swaylock || swaylock --indicator-radius 80 -c 282828
+[LOG] Process Created with pid 17107
+[LOG] Idled: rule 5575f62df7d8
+[LOG] Running hyprctl dispatch dpms off
+[LOG] Executing hyprctl dispatch dpms off
+[LOG] Process Created with pid 17141
+HYPRLAND_INSTANCE_SIGNATURE not set! (is hyprland running?)
+
+[LOG] Resumed: rule 5575f62df7d8
+[LOG] Running hyprctl dispatch dpms on
+[LOG] Executing hyprctl dispatch dpms on
+[LOG] Process Created with pid 17200
+[LOG] Resumed: rule 5575f62df780
+[LOG] Ignoring, onRestore is empty.
+HYPRLAND_INSTANCE_SIGNATURE not set! (is hyprland running?)
+
+2026-03-11 17:28:33 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:28:33 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:28:33 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:28:33 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:28:33.917: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(gammastep-indicator:7504): Gtk-CRITICAL **: 17:28:33.917: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-03-11 17:28:35 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:28:35 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:28:35 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:28:35 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:28:36 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:28:36 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:28:39 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:28:39 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:28:40 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:28:40 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:28:40 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:28:40 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:28:49 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:28:49 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:28:49.735: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7508): Gtk-CRITICAL **: 17:28:49.735: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-03-11 17:28:49 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:28:49 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+2026-03-11 17:28:50 - [swaybg-1.2.1/background-image.c:30] Failed to load background image (Failed to open file “ /home/klim/Wallpapers/3200x1800/3035.png”: No such file or directory).
+2026-03-11 17:28:50 - [swaybg-1.2.1/main.c:610] Failed to load image:  /home/klim/Wallpapers/3200x1800/3035.png
+[CRITICAL] [core] Disconnected from pollfd id 1
+Gdk-Message: 17:28:54.640: Error reading events from display: Broken pipe
+Gdk-Message: 17:28:54.640: Error reading events from display: Broken pipe
+Gdk-Message: 17:28:54.640: Error reading events from display: Broken pipe
+[GFX1-]: Wayland protocol error: Compositor () crashed, proxy: WP:E WP:CA WP:CR WP:CPCA WP:CPCF 
+ExceptionHandler::GenerateDump attempting to generate: /home/klim/.mozilla/firefox/profile/minidumps/405a8076-f5cc-e7db-7fb5-3b335ecc900e.dmp
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+ExceptionHandler::GenerateDump cloned child 17403
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::GenerateDump minidump generation  succeeded
+ Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+
+(crashreporter:17404): Gtk-WARNING **: 17:28:55.879: cannot open display: 
