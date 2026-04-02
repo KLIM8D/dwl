@@ -3320,7 +3320,7 @@ tagmon(const Arg *arg)
 {
 	Client *sel = focustop(selmon);
 	if (sel)
-		setmon(sel, dirtomon(arg->i), 0);
+		setmon(sel, dirtomon(arg->i), sel->tags);
 }
 
 void
