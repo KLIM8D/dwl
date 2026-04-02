@@ -3771,16 +3771,36 @@ createforeigntoplevel(Client *c)
 }
 
 void
+ffocusviewclient(Client *c)
+{
+    Arg a;
+
+    if (!c || !c->mon) return;
+
+    if (c->mon != selmon) {
+        selmon = c->mon;
+    }
+
+	a.ui = c->tags;
+	view(&a);
+	focusclient(c, 1);
+}
+
+void
 factivatenotify(struct wl_listener *listener, void *data)
 {
 	Client *c = wl_container_of(listener, c, factivate);
-	if (c->mon == selmon) {
-		c->tags = c->mon->tagset[c->mon->seltags];
-	} else {
-		setmon(c, selmon, 0);
-	}
-	focusclient(c, 1);
-	arrange(c->mon);
+    if (toplevel_focus_view_and_client) {
+        ffocusviewclient(c);
+    } else {
+        if (c->mon == selmon) {
+            c->tags = c->mon->tagset[c->mon->seltags];
+        } else {
+            setmon(c, selmon, 0);
+        }
+        focusclient(c, 1);
+        arrange(c->mon);
+    }
 }
 
 void
