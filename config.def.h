@@ -51,10 +51,11 @@ static const int lock_cursor = 0;	/* 1: lock cursor, 0: don't lock */
 
 /* NOTE: ALWAYS keep a rule declared even if you don't use rules (e.g leave at least one example) */
 static const Rule rules[] = {
-	/* app_id             title       tags mask     isfloating   monitor   x   y   width   height */
-	{ "Gimp_EXAMPLE",     NULL,       0,            1,           -1,       -1, -1, 1000,   0.75 }, /* Start on currently visible tags floating, not tiled */
-	{ "firefox_EXAMPLE",  NULL,       1 << 8,       0,           -1,       -1, -1, -1,     -1 },   /* Start on ONLY tag "9" */
-    /* default/example rule: can be changed but cannot be eliminated; at least one rule must exist */
+	/* app_id             title         tags mask     isfloating   monitor scratchkey */
+	/* examples: */
+	{ "Gimp_EXAMPLE",     NULL,         0,            1,           -1,     0   }, /* Start on currently visible tags floating, not tiled */
+	{ "firefox_EXAMPLE",  NULL,         1 << 8,       0,           -1,     0   }, /* Start on ONLY tag "9" */
+	{ NULL,               "scratchpad", 0,            1,           -1,     's' },
 };
 
 /* layout(s) */
@@ -152,6 +153,9 @@ static const int toplevel_focus_view_and_client = 1;
 static const char *termcmd[] = { "foot", NULL };
 static const char *menucmd[] = { "wmenu-run", NULL };
 
+/* named scratchpads - First arg only serves to match against key in rules*/
+static const char *scratchpadcmd[] = { "s", "alacritty", "-t", "scratchpad", NULL };
+
 static const Key keys[] = {
 	/* Note that Shift changes certain key codes: 2 -> at, etc. */
 	/* modifier                  key                  function          argument */
@@ -202,6 +206,8 @@ static const Key keys[] = {
 	{ MODKEY|WLR_MODIFIER_SHIFT, XKB_KEY_q,           quit,             {0} },
 
 	{ MODKEY,                    XKB_KEY_b,          entermode,      {.i = BROWSER} },
+	{ MODKEY,                    XKB_KEY_grave,      togglescratch,  {.v = scratchpadcmd } },
+	{ MODKEY|WLR_MODIFIER_SHIFT, XKB_KEY_Q,          quit,           {0} },
 
 	/* Ctrl-Alt-Backspace and Ctrl-Alt-Fx used to be handled by X server */
 	{ WLR_MODIFIER_CTRL|WLR_MODIFIER_ALT,XKB_KEY_Terminate_Server, quit, {0} },
