@@ -3543,14 +3543,25 @@ void
 togglescratch(const Arg *arg)
 {
 	Client *c;
+	const char *appid, *title;
 	unsigned int found = 0;
 
 	/* search for first window that matches the scratchkey */
-	wl_list_for_each(c, &clients, link)
+	wl_list_for_each(c, &clients, link) {
 		if (c->scratchkey == ((char**)arg->v)[0][0]) {
 			found = 1;
+            fprintf(stderr, "found scratchkey: %c\n", c->scratchkey);
 			break;
 		}
+    }
+
+    appid = client_get_appid(c);
+    title = client_get_title(c);
+
+    if (c->foreign_toplevel) {
+        wlr_foreign_toplevel_handle_v1_set_app_id(c->foreign_toplevel, appid);
+        wlr_foreign_toplevel_handle_v1_set_title(c->foreign_toplevel, title);
+    }
 
 	if (found) {
 		c->tags = VISIBLEON(c, selmon) ? 0 : selmon->tagset[selmon->seltags];
